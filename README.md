@@ -2,6 +2,13 @@
 
 ##Learning Competencies
 
+* Use methods to modularize code
+* Use data structures to map relationships
+* Write small, concise methods
+* Write DRY code
+* Use effective naming conventions
+
+
 ##Summary
 
 We're going to write a method that converts an integer to its Roman numeral equivalent, i.e., 476 => 'CDLXXVI'.
@@ -28,9 +35,10 @@ Symbols like 5, "five", V, and IIIII are one way. If you asked a three-year-old,
 
 [The map is not the territory](http://en.wikipedia.org/wiki/Map%E2%80%93territory_relation), as they say.
 
-## Objectives
 
-### Old-school Roman numerals
+##Releases
+
+###Release 0 : Old-school Roman numerals
 
 In the early days of Roman numerals, the Roman's didn't bother with any of this new-fangled subtraction 'IX' nonsense. No sir, it was straight addition, biggest to littlest–so 9 was written 'VIIII' and so on.
 
@@ -42,7 +50,7 @@ Make sure to test your method by passing it several inputs whose results you kno
 
 Hint: Use the integer division `/` and modulus `%` methods.
 
-### Modern Roman numerals
+###Release 1 : Modern Roman numerals
 
 Eventually, someone thought it would be terribly clever if putting a smaller number before a larger one meant you had to subtract the smaller one. As a result of this development, you must now suffer.
 
@@ -70,7 +78,8 @@ puts "1646  | MDCXLVI  | #{to_roman(1646)}"
 | 44     | XLIV   |
 | 944    | CMXLIV |
 
-### Roman Numerals vs. Arabic Numerals: Pros and Cons
+
+##Optimize Your Learning
 
 Reflect on the pros and cons of each representation. Imagine you're an engineer building a system for people to manipulate numbers and you have two proposals before you: use Roman numerals or use the [Arabic numerals](http://en.wikipedia.org/wiki/Arabic_numerals) we use today. How do you decide and why?
 
@@ -81,10 +90,5 @@ What else? This is a useful exercise in understanding the relationship between h
 For example, if we're counting people as they walk into a room by marking something on a piece of paper, Arabic numerals are a terrible representation. That'd be like trying to go for a hike and using a political map as a guide.
 
 Instead, we opt for using [tally marks](http://en.wikipedia.org/wiki/Tally_marks) to count.
-
-##Releases
-###Release 0
-
-##Optimize Your Learning
 
 ##Resources
